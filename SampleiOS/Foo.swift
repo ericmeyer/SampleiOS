@@ -1,5 +1,5 @@
 public class Foo {
     public func bar() -> String {
-        return "FAIL"
+        return "Hello World"
     }
 }
