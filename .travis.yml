@@ -1,3 +1,6 @@
+before_install:
+- brew update
+- brew upgrade xctool
 language: objective-c
 script:
 - xctool -project SampleiOS.xcodeproj -scheme SampleiOS clean build -sdk iphonesimulator8.1
